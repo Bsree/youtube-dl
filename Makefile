@@ -10,7 +10,6 @@ MANDIR ?= $(PREFIX)/man
 SHAREDIR ?= $(PREFIX)/share
 PYTHON ?= /usr/bin/env python
 
-#test#
 # set SYSCONFDIR to /etc if PREFIX=/usr or PREFIX=/usr/local
 ifeq ($(PREFIX),/usr)
 	SYSCONFDIR=/etc
